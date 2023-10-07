@@ -47,11 +47,13 @@ The App hosts two primary actors: unregistered/non-logged users and registered/l
 
 ### Test Cases
 
-All test cases created for the Story Spoil web application are documented in the 'Test Cases' directory of this repository. Each test case is designed to validate a specific functionality or use case described in the SRS document.
+All test cases created for the Story Spoil web application are documented in the 'Test Cases' directory of this repository. Each test case is designed to validate a specific functionality or use case described in the SRS document. -->
+[TestCases](https://github.com/SimeonSavov/StorySpoilWebApp_Testing/tree/c894fc9395dfcdaae49b4973c1d7016dc242f999/TestCases)
 
 ### Bug Tracking
 
-Any bugs or issues identified during the testing process are logged and tracked in the 'Bug Tracker' directory of this repository. Each bug report includes detailed information about the issue, steps to reproduce it.
+Any bugs or issues identified during the testing process are logged and tracked in the 'Bug Tracker' directory of this repository. Each bug report includes detailed information about the issue, steps to reproduce it. -->
+[BugReports](https://github.com/SimeonSavov/StorySpoilWebApp_Testing/tree/c894fc9395dfcdaae49b4973c1d7016dc242f999/BugReports)
 
 ## API Testing with Postman
 
