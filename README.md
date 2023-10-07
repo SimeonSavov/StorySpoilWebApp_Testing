@@ -59,7 +59,8 @@ Any bugs or issues identified during the testing process are logged and tracked 
 
 ### Story Spoil API
 
-This section provides information about the Story Spoil API endpoints and their functionalities. It serves as a guide to understand how to interact with the Story Spoil API.
+This section provides information about the Story Spoil API endpoints and their functionalities. It serves as a guide to understand how to interact with the Story Spoil API. -->
+[API](https://github.com/SimeonSavov/StorySpoilWebApp_Testing/tree/9c5580faf74145486d5d2a4ade815eb951495bc7/API)
 
 **API Base URL:** [Story Spoil API](https://d5wfqm7y6yb3q.cloudfront.net/)
 
