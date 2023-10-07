@@ -53,6 +53,51 @@ All test cases created for the Story Spoil web application are documented in the
 
 Any bugs or issues identified during the testing process are logged and tracked in the 'Bug Tracker' directory of this repository. Each bug report includes detailed information about the issue, steps to reproduce it.
 
+## API Testing with Postman
+
+### Story Spoil API
+
+This section provides information about the Story Spoil API endpoints and their functionalities. It serves as a guide to understand how to interact with the Story Spoil API.
+
+**API Base URL:** [Story Spoil API](https://d5wfqm7y6yb3q.cloudfront.net/)
+
+#### Supported Methods
+
+You can see all the supported methods on the following link: [Methods](https://d5wfqm7y6yb3q.cloudfront.net/)
+
+#### Endpoints
+
+The following endpoints are supported:
+
+1. **User**
+   - `POST /api/User/Create` – Create a new user (post a JSON object in the request body).
+   - `POST /api/User/Login` – Log in an existing user (post a JSON object in the request body).
+
+   **Access Token:** When a user logs in, the response format is a JSON object containing an access token.
+
+2. **Spoiler**
+   - **All of the following requests require Authorization.**
+   - `GET /api/Story/All` – List all spoilers.
+   - `GET /api/Story/Search` – Search spoilers by their name (requires a query parameter: `?keyword=storyTitle`).
+   - `POST /api/Story/Create` – Create a new spoiler (post a JSON object in the request body).
+   - `PUT /api/Story/Edit/storyId` – Replace the existing spoiler with a new one (post a JSON object in the request body).
+   - `DELETE /api/Story/Delete/storyId` – Delete an existing spoiler.
+
+### Postman Requests
+
+My task is to write API requests with Postman for certain RESTful API endpoints. I should organize the requests in a collection.
+
+1. **Log in to the API**
+   - Send a POST request with your username and password (previously created from the Story Spoil Web App).
+   - If executed properly, you will receive your access token as part of the response body. Use it as a Bearer Token in the Authorization section for the next requests.
+
+2. **Create a new spoiler**
+   - Send a POST request with the attributes needed for creating a new spoiler.
+   - The JSON body attributes include "title," "description," and an optional "url" for a picture.
+
+3. **List all spoilers**
+   - Send a GET request to receive a list of all created spoilers.
+
 ## Issues and Feedback
 
 If you encounter any issues with the testing process or have feedback to improve it, please feel free to open an issue in this repository. Your feedback is valuable in ensuring the quality of the testing effort.
